@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    width: 99%;
+    padding: .5%;
+    display: flex;
+    justify-content: center;
+    background-color: #003669;
+    color: #cde7ff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.box { /*Essa div é mesmo necessária?*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.insert { /*TODO: Centralizar essa div*/
+    width: 25%;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#cde7ff;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+#peso {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+#altura {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+#calc {
+    width: 28%;
+    padding: 10px;
+    background-color: #003669;
+    color: #cde7ff;
+    border-radius: 10px;
+}
