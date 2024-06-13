@@ -6,8 +6,8 @@ header {
     padding: .5%;
     display: flex;
     justify-content: center;
-    background-color: #003669;
-    color: #cde7ff;
+    background-color: #283040;
+    color: #F2B6C1;
     border-radius: 15px;
     box-shadow: 10px 10px 50px gray;
 }
@@ -19,13 +19,13 @@ main {
     padding: 10%;
 }
 
-.insert { /*TODO: Centralizar essa div*/
+.insert {
     width: 20%;
     padding: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#cde7ff;
+    background-color:#F2B6C1;
     flex-direction: column;
     border-radius: 15px;
     box-shadow: 10px 10px 50px gray;
@@ -42,10 +42,28 @@ main {
     border-radius: 10px;
     border-style: none;
 }
+
+#peso:focus {
+    outline: none;
+}
+
+#altura:focus {
+    outline: none;
+}
+
 button {
+    font-weight: bold;
     width: 28%;
     padding: 10px;
-    background-color: #003669;
-    color: #cde7ff;
+    background-color: #283040;
+    color: #F2B6C1;
     border-radius: 10px;
+    outline: none;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #8C3A60;
+    color: #283040;
+    transition: ease-out .5s;
 }
